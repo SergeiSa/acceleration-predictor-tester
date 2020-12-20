@@ -28,3 +28,4 @@ u = randn(Handler_dynamics_generalized_coordinates_model.dof_control, 1);
 acc = pinv(H) * (T*u - c);
 
 acc
+
